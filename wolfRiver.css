@@ -1,0 +1,102 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "header";
+    grid-gap: 12px;
+    text-align: center;
+}
+
+body{
+    background: green;
+    text-align: center;
+}
+
+header{
+    grid-area: header;
+    font-size: 50px;
+    color: limegreen;
+    background: green;
+    margin: 5%;
+}
+
+h2{
+    grid-area: section;
+    font-size: 25px;
+    text-align: center;
+    color: limegreen;
+    margin: 5%;
+}
+
+p{
+    font-size: 25px;
+    color: limegreen;
+}
+#nav1{
+    grid-area: home;
+    background: limegreen;
+    text-align: left;
+    grid-row: 2;
+    grid-column: 1;
+    border: 10px solid limegreen;
+    display: inline-block;
+}
+
+#nav2{
+    grid-area: home;
+    background: limegreen;
+    grid-column: 2;
+    border: 10px solid limegreen;
+    display: inline-block;
+}
+
+#nav3{
+    grid-area: home;
+    background: limegreen;
+    grid-column: 3;
+    border: 10px solid limegreen;
+    display: inline-block;
+}
+
+#nav4{
+    grid-area: home;
+    background: limegreen;
+    grid-column: 4;
+    border: 10px solid limegreen;
+    display: inline-block;
+}
+
+#nav5{
+    grid-area: home;
+    background: limegreen;
+    grid-column: 5;
+    border: 10px solid limegreen;
+    display: inline-block;
+}
+
+#nav6{
+    grid-area: home;
+    background: limegreen;
+    grid-column: 6;
+    border: 10px solid limegreen;
+    display: inline-block;
+}
+
+#nav7{
+    grid-area: home;
+    background: limegreen;
+    grid-column: 7;
+    border: 10px solid limegreen;
+    display: inline-block;
+}
+
+#nav8{
+    grid-area: home;
+    background: limegreen;
+    grid-column: 8;
+    border: 10px solid limegreen;
+    display: inline-block;
+}
+
+img{
+    height: 6cm;
+}
