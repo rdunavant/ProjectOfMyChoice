@@ -1,9 +1,11 @@
 .container{
     display: grid;
-    grid-template-areas: "header";
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 12px;
-    text-align: center;
+    grid-template-columns: 50% 50%;
+}
+.border{
+    border: limegreen solid thick;
+    margin: 10px;
+    padding: 10px;
 }
 body{
     background: green;
@@ -13,7 +15,6 @@ header{
     grid-area: header;
     font-size: 50px;
     color: limegreen;
-    background: green;
     margin: 5%;
 }
 h2{
@@ -85,4 +86,9 @@ h2{
 }
 img{
     height: 6cm;
+}
+p{
+    color: limegreen;
+    margin: 1%;
+    font-size: 25px;
 }

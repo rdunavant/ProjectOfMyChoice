@@ -1,11 +1,12 @@
 .container{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "header";
-    grid-gap: 12px;
-    text-align: center;
+    grid-template-columns: 50% 50%;
 }
-
+.border{
+    border: limegreen solid thick;
+    margin: 10px;
+    padding: 10px;
+}
 body{
     background: green;
     text-align: center;
@@ -15,7 +16,6 @@ header{
     grid-area: header;
     font-size: 50px;
     color: limegreen;
-    background: green;
     margin: 5%;
 }
 
@@ -30,6 +30,7 @@ h2{
 p{
     font-size: 25px;
     color: limegreen;
+    margin: 1%;
 }
 #nav1{
     grid-area: home;
@@ -99,4 +100,5 @@ p{
 
 img{
     height: 6cm;
+    margin: 3%;
 }
